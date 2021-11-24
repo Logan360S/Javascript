@@ -1,0 +1,24 @@
+#box {
+    background:red;
+    border: 2px solid green;
+    width:100px;
+    height:100px;
+    margin-top: 20px;
+
+}
+
+#inner {
+    display:table;
+    margin:0 auto;
+    border:1px solid black;
+    height:98px;
+}
+
+#inner2 {
+    overflow:hidden;
+    display:table;
+    margin:50% auto;
+    border:1px solid black;
+    width:100px;
+}
+
