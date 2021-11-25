@@ -1,24 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 #box {
     background:red;
-    border: 2px solid green;
+    border: 1px solid green;
     width:100px;
     height:100px;
     margin-top: 20px;
+    display:table;
 
 }
 
 #inner {
-    display:table;
-    margin:0 auto;
+    float:left;
+    width:50%;
+    height:50%;
     border:1px solid black;
-    height:98px;
 }
-
-#inner2 {
-    overflow:hidden;
-    display:table;
-    margin:50% auto;
-    border:1px solid black;
-    width:100px;
-}
-
