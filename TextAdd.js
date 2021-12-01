@@ -8,7 +8,7 @@ clearBut.addEventListener('click', clearList);
 
 field.addEventListener("keyup", function(event) {
     if(event.code === 'Enter') {
-        button.click();
+        addText();
     }
 
 });
@@ -17,11 +17,9 @@ function addText () {
     const item = document.createElement("li");
     item.innerText = field.value;
     list.appendChild(item);
-    console.log(list);
     field.value = "";
 }
 
 function clearList () {
-    list.innerText = "";
-    console.log(list);
+    list.innerHTML = "";
 }

@@ -9,29 +9,29 @@
 //     changeMessage.
 // }
 
-var instruction = document.createElement("div");
-instruction.innerText = "Please input text";
-instruction.style.display = "inline-block";
-instruction.style.marginRight = "5px";
+// var instruction = document.createElement("div");
+// instruction.innerText = "Please input text";
+// instruction.style.display = "inline-block";
+// instruction.style.marginRight = "5px";
 
-var inputField = document.createElement("input");
-inputField.style.marginRight = "5px";
-inputField.id = "inputField"
+// var inputField = document.createElement("input");
+// inputField.style.marginRight = "5px";
+// inputField.id = "inputField"
 
-var button = document.createElement("button");
-button.innerText = "Add";
-button.addEventListener('click', addText);
+// var button = document.createElement("button");
+// button.innerText = "Add";
+// button.addEventListener('click', addText);
 
-var lineBreak = document.createElement("hr");
+// var lineBreak = document.createElement("hr");
 
-var ulist = document.createElement("ul");
+// var ulist = document.createElement("ul");
 
-function addText() {
-    const inputInfo = document.getElementById("inputField");
-    const item = document.createElement("li");
-    item.innerText = inputInfo.value;
-    ulist.appendChild(item);
-    inputInfo.value = "";
-}
+// function addText() {
+//     const inputInfo = document.getElementById("inputField");
+//     const item = document.createElement("li");
+//     item.innerText = inputInfo.value;
+//     ulist.appendChild(item);
+//     inputInfo.value = "";
+// }
 
-document.body.append(instruction, inputField, button, lineBreak, ulist);
+// document.body.append(instruction, inputField, button, lineBreak, ulist);
